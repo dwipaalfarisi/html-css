@@ -1,6 +1,7 @@
 body {
     background-color: white;
 }
+
 h1 {
     font-size: 52px;
     text-align: center;
@@ -14,9 +15,17 @@ h1 {
     line-height: 35px;
 }
 
+.unicef-logo {
+    vertical-align: middle;
+    max-width: auto;
+    max-height: 1.5em;
+}
 
 .shop-para {
-    border-color: red;
+    font-size: 20px;
+    background-color: #fbfbfd;
+    padding: 15px;
+    text-align: center;
 }
 .shop a:visited {
     color: black;
@@ -31,3 +40,60 @@ h1 {
 .shop a:active {
     color: purple;
 }
+
+.unicef-donate img {
+    vertical-align: middle;
+    max-width: auto;
+    max-height: 1.5em;
+}
+
+.unicef-donate {  
+    font-size: 20px;
+    background-color: #fbfbfd;
+    padding: 15px;
+    text-align: center;
+}
+
+.unicef-donate a {
+    color: rgb(10, 156, 214);
+    text-decoration: none;
+}
+
+.unicef-donate a:hover {
+    text-decoration: underline;
+}
+
+.unicef-donate a:active {
+    color: purple;
+}
+
+.macbook-air {
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+.supercharged-by {
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+}
+
+.supercharged-by img {
+    vertical-align: middle;
+    max-width: auto;
+    max-height: 25px;
+    margin: 0px;
+}
+
+.learn-order {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+
+/* .learn-more s {
+    text-decoration: underline;
+} */
