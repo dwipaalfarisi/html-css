@@ -70,19 +70,69 @@
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.page-button {
-    padding-bottom: 5px;
-    padding-top: 5px;
-    
-}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
-.page-number-button {
+/* Add a grey background color on mouse-over */
+.pagination a:hover {background-color: #ddd;}
+  
+.pagination a:active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+.stretch-button {
+    padding: 8px 16px;
+    background-color: green;
+    border-width: 2px;
     border: none;
-    background-color: none;
-    background-clip: content-box;
-    
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.stretch-button:hover {
+    padding: 16px 32px;
 }
 
 
+.shadow-button {
+    padding: 8px 16px;
+    background-color: green;
+    border-width: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 4px 1px rgba(2, 0, 2, 0.25);
+}
+
+.shadow-button:active {
+    margin-top: 3px;
+    margin-left: 3px;
+}  
+
+.widening-button {
+    padding: 10px 15px;
+    background-color: green;
+    border-width: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.3s, margin 0,3s;
+}
+
+.widening-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 

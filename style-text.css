@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+}
+h1 {
+    font-size: 52px;
+    text-align: center;
+}
+
+.mkbhd-title {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    width: 350px;
+    line-height: 35px;
+}
+
+
+.shop-para {
+    border-color: red;
+}
+.shop a:visited {
+    color: black;
+}
+
+.shop a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.shop a:active {
+    color: purple;
+}
