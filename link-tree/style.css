@@ -6,14 +6,44 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
-    background-color: rgb(242, 242, 242);
-}
+/* main {
+    background-color: rgba(71, 248, 189, 0.829);
+} */
 
 h1 {
     text-align: center;
     font-size: 50px;
 }
+
+.linkedin-text {
+    text-align: center;
+    background-color: bisque;
+    margin: 50px;
+}
+
+.linkedin {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    margin: 0px;
+    padding: 0px, 0px;
+    background-color: azure;
+}
+
+.linkedin-text a{
+    color: black;
+    text-decoration: none;
+    background-color: bisque;
+}
+.linkedin-text a:hover{
+    color: blue;
+}
+
+.linkedin-text a:active {
+    color: purple;
+}
+
 
 .github {
     font-weight: bold;
@@ -47,6 +77,7 @@ h1 {
 .github-text a{
     color: black;
     text-decoration: none;
+    background-color: transparent;
 }
 
 .github-text:hover a{
@@ -60,6 +91,7 @@ h1 {
 .github-text img {
     vertical-align: middle;
     height: 30px;
+    background-color: transparent;
 }
 
 .twitter {
@@ -76,16 +108,19 @@ h1 {
     text-align: center;
     background-color: rgb(223, 143, 143);
     padding: 10px;
+    margin: 20px;
 }
 
 .twitter-text img {
     vertical-align: middle;
     height: 25px;
+    background-color: transparent;
 }
 
 .twitter-text a{
-    color: black;
+    color: white;
     text-decoration: none;
+    background-color: transparent;
 }
 
 .twitter-text:hover a{
